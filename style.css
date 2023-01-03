@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oswald:wght@700&display=swap');
+
+body{
+	background: #fff;
+	font-family: 'Lato', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+.strict-header{
+	background: #f5f9f9;
+	padding: 30px 0;
+}
+
+.strict-menu ul{
+	display: flex;
+	justify-content: flex-end;
+}
+.strict-menu ul li a{
+	color: #454444;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	padding: 0 20px;
+	text-transform: capitalize;
+}
+
+.strict-menu-icon{
+	display: none;
+}
+
+/* Banner */
+.strict-banner{
+	background: url('images/banner.png');
+	background-size: cover;
+	background-position: center;
+	padding: 120px 0 90px;
+}
+.strict-banner-text{
+	text-align: center;
+}
+.strict-banner-text h1{
+	color: #fff;
+	font-size: 120px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 35px;
+}
+.strict-banner-text p{
+	color: #fff;
+	font-size: 20px;
+	border-top: 2px solid #15a4fa;
+	display: inline-block;
+	padding: 39px 15px 0;
+	margin-bottom: 65px
+}
+.strict-banner-text button{
+	background: transparent;
+	border: 1px solid #15a4fa;
+	color: #fff;
+	padding: 10px 30px;
+	transition: .3s;
+}
+.strict-banner-text button:hover{
+	background: #15a4fa;
+}
+.strict-banner-text a{
+	display: block;
+	margin-top: 175px;
+	color: #fff;
+}
+
